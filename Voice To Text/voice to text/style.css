@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+*,*:after,*::before{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body{
+  font-family: serif;
+  font-size: 16px;
+  margin: 0;
+  background:linear-gradient(to right bottom, #967BB6 , #C8E3FF );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: #000;
+}
+
+.voice_to_text{
+  width: 700px;
+  text-align: center;
+}
+
+#bottom{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-family: cursive;
+  font-size: 25px;
+  color:darkblue
+}
+h1{
+  font-size: 50px;
+  color: Black;
+  padding-bottom: 100px;
+  right: -300px;
+}
+#convert_text{
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  resize: none;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.inputBx {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+}
+.inputBx input {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  resize: none;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  position: relative;
+  top: 10px;
+  left: -300px;
+}
+
+
+.inputBx button {
+  position: relative;
+  top:50px;
+  left: 150px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 3rem;
+  text-align: center;
+  font-size: 1.75rem;
+  cursor: pointer;
+  color: #040f13;
+}
